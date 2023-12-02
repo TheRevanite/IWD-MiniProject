@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Real Estate Website</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Real Estate Hub</h1>
+    </header>
+
+    <section id="search">
+        <h2>Find Your Dream Home</h2>
+        <form id="search-form">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Enter location">
+
+            <label for="price">Price Range:</label>
+            <select id="price" name="price">
+        <option value="">Any</option>
+        <option value="100000">$100,000</option>
+        <option value="200000">$200,000</option>
+        <option value="300000">$300,000</option>
+        <!-- Add more options as needed -->
+      </select>
+
+            <button type="button" onclick="searchProperties()">Search</button>
+        </form>
+    </section>
+
+    <section id="property-listings">
+        <!-- Property listings will be displayed here dynamically -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
