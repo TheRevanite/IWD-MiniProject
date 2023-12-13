@@ -1,0 +1,490 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: beige;
+    height: 60;
+    position: fixed;
+    width: 1525;
+    z-index: 9999;
+}
+
+.nav .left-nav {
+    margin: -3%;
+}
+
+.nav .left-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 65px;
+}
+
+.nav .left-nav ul li {
+    list-style: none;
+    margin: 0px 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20;
+}
+
+.nav .left-nav ul li a {
+    cursor: pointer;
+    text-decoration: solid;
+    color: black;
+    transition: ease-in-out 300ms;
+}
+
+.nav .left-nav ul li a:hover {
+    color: rgb(254, 94, 94);
+}
+
+.nav .right-nav ul li a:hover {
+    color: rgb(254, 94, 94);
+}
+
+.nav .middle-nav a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.5;
+    cursor: pointer;
+    color: black;
+    font-size: 25;
+    text-decoration: solid;
+    font-weight: bolder;
+}
+
+.nav .right-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 60px 0px -65px;
+}
+
+.nav .right-nav ul li {
+    list-style: none;
+    margin: 0px 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20;
+}
+
+.nav .right-nav ul li a {
+    text-decoration: solid;
+    cursor: pointer;
+    color: black;
+    transition: ease-in-out 300ms;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: rgb(222, 252, 252);
+}
+
+.section-1 .sub1-section1 {
+    background-image: url(images/kitchen.jpg);
+    background-size: cover;
+    min-height: 90%;
+    width: 80%;
+    float: left;
+    height: 500;
+    position: relative;
+}
+
+.section-1 .sub2-section1 {
+    width: 45vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.section-1 .sub2-section1 h3 {
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-1 .sub2-section1 h2 {
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.section-1 .sub2-section1 h1 {
+    font-size: 3.5vw;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+    padding-left: 10;
+}
+
+.section-2 q {
+    font-size: 2vw;
+    font-family: 'Rubik', sans-serif;
+}
+
+.section-2 i {
+    font-size: 2vw;
+}
+
+.section-3 {
+    background: #f5f1ed;
+    height: 700;
+}
+
+.section-3 .sub1-section3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px 0px 0px;
+}
+
+.section-3 .sub1-section3 h2 {
+    font-size: 1.5vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.section-3 .sub1-section3 a {
+    text-align: center;
+    font-size: 1vw;
+    border: 1px solid #484848;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    transition: ease-in-out 300ms;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: solid;
+    color: black;
+}
+
+.section-3 .sub1-section3 a:hover {
+    background: #111111;
+    color: #ffffff;
+    font-weight: lighter;
+    border: 1px solid #ffffff;
+    transition: ease-in-out 300ms;
+    cursor: pointer;
+}
+
+.section-3 .sub1-section3 .empty-space-sub1-section3 {
+    margin: 5% 5%;
+}
+
+.section-3 .sub2-section3 {
+    display: grid;
+    gap: 80px 100px;
+    grid-template-columns: auto auto;
+    padding: 0px 100px 0px 100px;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box1 .image1 {
+    background-image: url(images/house1.jpg);
+    background-size: cover;
+    min-height: 90%;
+    width: 100%;
+    height: 48vh;
+    position: relative;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box1 .contain-two-rows-of-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box1 .contain-two-rows-of-text .name-and-price h3 {
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box1 .contain-two-rows-of-text .name-and-price h2 {
+    font-size: 1.5vw;
+    font-family: 'Rubik', sans-serif;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box1 .contain-two-rows-of-text .location-and-availability h3 {
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box1 .contain-two-rows-of-text .location-and-availability h2 {
+    font-size: 1.5vw;
+    font-family: 'Rubik', sans-serif;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box1 .contain-two-rows-of-text .name-and-price a {
+    text-align: center;
+    font-size: 1vw;
+    border: 1px solid #484848;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    transition: ease-in-out 300ms;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: solid;
+    color: black;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box1 .contain-two-rows-of-text .name-and-price a:hover {
+    background: #111111;
+    color: #ffffff;
+    font-weight: lighter;
+    border: 1px solid #ffffff;
+    transition: ease-in-out 300ms;
+    cursor: pointer;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box2 .contain-two-rows-of-text .name-and-price a {
+    text-align: center;
+    font-size: 1vw;
+    border: 1px solid #484848;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    transition: ease-in-out 300ms;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: solid;
+    color: black;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box2 .contain-two-rows-of-text .name-and-price a:hover {
+    background: #111111;
+    color: #ffffff;
+    font-weight: lighter;
+    border: 1px solid #ffffff;
+    transition: ease-in-out 300ms;
+    cursor: pointer;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box2 .image2 {
+    background-image: url(images/house2.jpg);
+    background-size: cover;
+    min-height: 90%;
+    width: 100%;
+    height: 48vh;
+    position: relative;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box2 .contain-two-rows-of-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box2 .contain-two-rows-of-text .name-and-price h3 {
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box2 .contain-two-rows-of-text .name-and-price h2 {
+    font-size: 1.5vw;
+    font-family: 'Rubik', sans-serif;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box2 .contain-two-rows-of-text .location-and-availability h3 {
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-3 .sub2-section3 .sub2-section3-box2 .contain-two-rows-of-text .location-and-availability h2 {
+    font-size: 1.5vw;
+    font-family: 'Rubik', sans-serif;
+}
+
+.section-4 {
+    height: 40vh;
+    background: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.section-4 q {
+    color: white;
+    font-size: 3vw;
+    font-family: 'Rubik', sans-serif;
+}
+
+.section-4 p {
+    color: white;
+    font-size: 3vw;
+}
+
+.section-4 i {
+    font-size: 3vw;
+}
+
+.section-6 {
+    height: 90vh;
+    background: rgb(238, 228, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-right: 100;
+}
+
+.section-6 q {
+    color: #101010;
+    font-size: 2vw;
+    font-family: 'Rubik', sans-serif;
+}
+
+.section-6 p {
+    color: #101010;
+    font-size: 2vw;
+    padding: 0px 50px 0px 150px;
+    font-family: 'Rubik', sans-serif;
+    opacity: 95%;
+}
+
+.section-6 i {
+    color: #101010;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+.section-6 .section6-image-of-person {
+    background-image: url(images/seller.jpg);
+    background-size: cover;
+    min-height: 90%;
+    width: 150%;
+    height: 70vh;
+    position: relative;
+    opacity: 90%;
+}
+
+.section-7 {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    min-height: 90%;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    opacity: 90%;
+}
+
+.section-7 .section7-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 75vh;
+    background: #000000;
+    opacity: 80%;
+}
+
+.section-7 .section7-text-container h2 {
+    font-size: 2.5vw;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 80px;
+}
+
+.section-7 .section7-text-container a {
+    text-align: center;
+    font-size: 1.5vw;
+    border: 1px solid #484848;
+    width: fit-content;
+    align-self: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    transition: ease-in-out 300ms;
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: solid;
+}
+
+.section-7 .section7-text-container a:hover {
+    background: #ffffff;
+    color: #000000;
+    font-weight: lighter;
+    border: 1px solid #ffffff;
+    transition: ease-in-out 300ms;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.section-8 {
+    background: #101010;
+    height: 50;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20;
+}
+
+.section-8 .sub1-section8 {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 0px 10px;
+    font-size: 10;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #f5f1ed;
+}
+
+.subscribe-container {
+    position: relative;
+    bottom: 125;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #000000
+}
+
+#confirmationMessage {
+    margin-top: 16px;
+    color: #000000;
+    font-weight: bold;
+}
