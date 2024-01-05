@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: beige;
+    height: 60;
+    position: fixed;
+    width: 1525;
+    z-index: 9999;
+}
+
+.nav .left-nav {
+    margin: -3%;
+}
+
+.nav .left-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 65px;
+}
+
+.nav .left-nav ul li {
+    list-style: none;
+    margin: 0px 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20;
+}
+
+.nav .left-nav ul li a {
+    cursor: pointer;
+    text-decoration: solid;
+    color: black;
+    transition: ease-in-out 300ms;
+}
+
+.nav .left-nav ul li a:hover {
+    color: rgb(254, 94, 94);
+}
+
+.nav .right-nav ul li a:hover {
+    color: rgb(254, 94, 94);
+}
+
+.nav .middle-nav a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.5;
+    cursor: pointer;
+    color: black;
+    font-size: 25;
+    text-decoration: solid;
+    font-weight: bolder;
+}
+
+.nav .right-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 60px 0px -65px;
+}
+
+.nav .right-nav ul li {
+    list-style: none;
+    margin: 0px 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20;
+}
+
+.nav .right-nav ul li a {
+    text-decoration: solid;
+    cursor: pointer;
+    color: black;
+    transition: ease-in-out 300ms;
+}
+
+.house-container {
+    background: #f8d9d9;
+    height: 1750;
+    width: 100%;
+    overflow: hidden;
+}
+
+.house-container .house {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    padding: 40px 150px 0px 0px;
+}
+
+.house-container .house h2 {
+    font-size: 100;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-bottom: 20;
+    padding-top: 10;
+}
+
+.house-container .house-text h2 {
+    text-align: left;
+    font-size: 40;
+    padding: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    text-decoration: solid;
+    color: black;
+}
+
+.house-container .image-main {
+    background-image: url(images/house1/main.jpg);
+    width: 100%;
+    height: 500;
+    position: relative;
+    opacity: 90%;
+    left: 40;
+    background-repeat: no-repeat;
+}
+
+.house-container .image-main h1 {
+    position: relative;
+    left: 1000;
+    font-size: 40;
+    padding-right: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    color: black;
+}
+
+.house-container .image-main h4 {
+    position: relative;
+    top: 50;
+    left: 800;
+    font-size: 25;
+    padding-right: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    color: black;
+}
+
+.house-container .image-main .text-container {
+    position: relative;
+    left: 850;
+    padding-top: 25px;
+    padding-right: 50px;
+    height: 250px;
+    width: 500px;
+    border-color: #101010;
+}
+
+.house-container .image-main .text-container h2 {
+    font-size: 20;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    text-decoration: solid;
+    color: black;
+    text-align: left;
+}
+
+.house-container .image-main .text-container h3 {
+    font-size: 20;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+    position: relative;
+    right: 48;
+    padding-bottom: 20;
+}
+
+.house-container .row {
+    display: flex;
+    padding-left: 40px;
+}
+
+.house-container .column {
+    width: 500;
+    height: 300;
+    opacity: 90%;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+}
+
+.house-container .column img {
+    width: 440;
+    height: 280;
+    opacity: 100%;
+    background-repeat: no-repeat;
+}
+
+.house-container .house .empty-space-house-container {
+    margin: 5% 5%;
+}
+
+.house-container .empty-space-house-container {
+    margin: 5% 5%;
+}
+
+.house-container .house-text ul li {
+    list-style: disc;
+    margin: 0px 80px;
+    font-size: 20;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    text-decoration: solid;
+    color: black;
+}
+
+.section-8 {
+    background: #101010;
+    height: 50;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.section-8 .sub1-section8 {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 0px 10px;
+    font-size: 10;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #f5f1ed;
+}
